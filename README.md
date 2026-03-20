@@ -35,8 +35,9 @@ Deploy a dynamic website using an EC2 instance. **This option qualifies you for 
    - Must use either S3 or EC2 (no other hosting platforms)
 
 4. **Submit Your Work**
-   - Share your live URL in the showcase channel
-   - Deadline: Tomorrow after 12 PM
+   - Share your live URL in the Projects & Collaborations channel
+   - Make A pull request to this repo to lock-in your submission
+   - Deadline: 21st March 2026, 12pm
 
 ---
 
@@ -71,7 +72,7 @@ Successfully deploy your website on EC2 and you'll be entered to win exclusive A
 
 ## 📍 Submission
 
-Post your live website URL in the showcase channel by **tomorrow after 12 PM**.
+Post your live website URL in the Projects & Collaborations channel by **tomorrow before 12 PM**.
 
 **Format**: `Name - S3/EC2 - URL`
 
