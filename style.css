@@ -1,0 +1,365 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: #FDF9EA;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    margin-top: 130px;
+}
+
+header {
+    position: fixed;
+    top: 20px;
+    left: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.25px solid #BDBAB0;
+    background-color: white;
+    border-radius: 34px;
+    width: 703px;
+    padding: 15px 24px;
+    margin: 20px auto;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div p {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #808080;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+header a:hover, a:active {
+    color: #EB4F2D;
+    font-weight: bold;
+}
+
+header a:active {
+    text-decoration: underline;
+}
+
+header button {
+    color: white;
+    background-color: #EB4F2D;
+    font-size: 18px;
+    padding: 6px 15px;
+    border-radius: 18px;
+    font-weight: bold;
+}
+
+.my-profile{
+    display: flex;
+    flex-direction: column;
+}
+
+.pfp {
+    border: 1px solid #BDBAB0;
+    display: inline-block;
+    border-radius: 16px;
+    background-color: white;
+    margin: 15px auto;
+    height: 250px;
+    align-self: center;
+}
+
+.pfp img{
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.me {
+    width: 356px;
+    height: 61px;
+    background-color: white;
+    border: 0.25px solid #BDBAB0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 13px;
+    align-self: center;
+}
+
+.me div {
+    margin: 0 10px 0 0;
+    color: #EB4F2D;
+    background-color: rgb(235, 79, 45, 0.22);
+    border-radius: 5px;
+}
+
+.me div p {
+    padding: 6px 10px;
+    text-align: center;
+}
+
+.me p {
+    font-size: 24px;
+}
+
+.about_contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 48px 90px;
+    border-radius: 16px;
+    width: 1000px;
+    margin: 48px auto;
+}
+
+.title {
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 50px;
+}
+
+.contact div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.contact div img {
+    margin-right: 15px;
+}
+
+.ctas {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact_button, .download {
+    font-weight: bold;
+    margin: 15px 30px 0 0;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 18px;
+}
+
+.download {
+    border: 1px solid #EB4F2D;
+    background-color: rgb(235, 79, 45, 0.15);
+    color: #EB4F2D;
+}
+
+.download:hover {
+    background-color: rgb(235, 79, 45);
+    color: white;
+}
+
+.contact_button {
+    background-color: #EB4F2D;
+    color: white;
+}
+
+.contact_button:hover, .resume:hover {
+    background-color: #a03720;
+}
+
+.vertical-line {
+    background-color: #BDBAB0;
+    height: 262px;
+    width: 1px;
+}
+
+.logo img{
+    width: 105px;
+}
+
+.Education, .Language {
+    background-color: #FBFBFB;
+    padding-bottom: 30px;
+}
+
+.Education {
+    padding-top: 10px;
+}
+
+.edu {
+    border-radius: 10px;
+}
+
+.first, .second {
+    margin-left: 156px;
+    border: 1px solid #BDBAB0;
+    border-radius: 10px 10px 0 0;
+    width: 1007px;
+    padding: 21px 23px;
+    background-color: white;
+}
+
+.first:hover, .second:hover {
+    background-color: #F4FAFB;
+}
+
+.second {
+    border-radius: 0 0 10px 10px;
+    border-top: 0;
+}
+
+.work, .educate, .language {
+    margin-left: 146px;
+    margin-top: 40px;
+}
+
+.language {
+    margin-top: 0;
+    padding-top: 40px;
+}
+
+.first .school-data, .second .school-data {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    width: 105px;
+    margin-right: 30px;
+    background-color: white;
+}
+
+.school-data {
+    border-bottom: 1px solid #BDBAB0;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.info h1, h3, p{
+    margin-bottom: 5px;
+}
+
+.activity h2 {
+    margin-bottom: 10px;
+}
+
+.skills {
+    background-color: white;
+    margin-top: 33px;
+    padding: 32px 133px;
+}
+
+.hobbies {
+    background-color: #FADECB;
+    padding-bottom: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 16px;
+    padding: 30px 75px;
+}
+
+.main-card > div {
+    margin-right: 50px;
+}
+
+.lang {
+    background-color: white;
+    margin-right: 60px;
+    border-radius: 10px;
+    width: 265px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #BDBAB0;
+}
+
+.lang:hover {
+    background-color: #F4FAFB;
+}
+
+.lang img {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.lang-prof {
+    margin-left: 156px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.lang-header {
+    border-radius: 10px 10px 0 0;
+    background-color: #EB4F2D;
+    color: white;
+    text-align: center;
+    padding: 9px;
+    width: 265px;
+    margin-bottom: 30px;
+}
+
+.lang-skills li{
+    font-size: 12px;
+}
+
+.lang-skills {
+    align-self: flex-start;
+    border-top: 1px solid #BDBAB0;
+    width: 265px;
+    padding: 10px 8px;
+}
+
+.quote_author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FEF5C3;
+    border: 4px solid #EB4F2D;
+    margin: 0 auto;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.quote, .author {
+    text-align: center;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #EB4F2D;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.author {
+    margin-top: 15px;
+    font-size: 24px;
+}
